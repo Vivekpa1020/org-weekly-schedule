@@ -64,7 +64,7 @@ For example, he protects his writing time, by which he means the time he spends 
 He tries to do a couple of hours every day.
 He will not schedule a meeting during that block of time.
 However, if he can't do otherwise and has to attend that meeting, he has a policy of going to a certain location, like a coffee shop or library, and doing that postponed generative writing for the next 90 minutes.
-He also blocks off certain days when he will not participate in any meetings (Ya! Great idea!) to build momentum on his research projects.
+He also blocks off certain days when he will not participate in any meetings (Yes! Great idea!) to build momentum on his research projects.
 
 Another policy you'll need to develop is how to handle a late start on your schedule.
 For example, you can see that I have 4 a.m. listed as the starting point for my generative writing.
