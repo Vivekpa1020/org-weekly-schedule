@@ -7,7 +7,7 @@
 # org-weekly-schedule
 
 Build weekly time-block schedule tables inside Emacs org-mode because of the strong support for customizable and flexible tables.
-
+This was initially designed for professors, but it can be adapted by scientists at any level, writers, and software developers.
 
 ## Overview
 
@@ -27,7 +27,7 @@ The package operates in three layers:
 
 ## Problem addressed
 
-This project was inspired by the idea that you can build a weekly template to streamline the planning process.
+This project was inspired by the idea of creating a weekly template to streamline the planning process.
 While academics do have many projects they are involved in, they do not have to make as many strategic decisions in a given day as CEOs do.
 The planning techniques appropriate for the business world are not as appropriate for academia.
 I was getting tired of spending 60 to 90 minutes a day planning, when many days were similar and could be streamlined with a template approach.
@@ -35,8 +35,8 @@ I suspect there are also many similarities to academic workflows in knowledge wo
 
 The idea of a weekly template that distinguishes between different kinds of days comes from Cal Newport.
 I had previously developed a similar weekly schedule using the format shown below, but I had not considered how my days of the week actually differ in nature.
-I had tried to set every day of the week as a research day, with different kinds of writing best done at different times, depending on my energy levels.
-The variation in the nature of my days wreaked havoc on my straight-jacket approach.
+I had tried to treat every day of the week as a research day (I wish!), with different kinds of writing best done at different times, depending on my energy levels.
+The variation in the nature of my days due to other duties wreaked havoc on my straight-jacket approach.
 
 In an episode on his YouTube channel, Cal distinguishes class days from research days.
 On his research days, he goes deep into writing and avoids any meetings.
@@ -57,14 +57,16 @@ I see the letter codes A and B for two different major writing projects, but you
 If you're a programmer, you might be working on one or two major projects.
 You could treat your programming projects the way I treat my writing projects.
 
+### You will need some policies to handle exceptions
+
 Cal Newport also talked about developing a set of policies to follow when planning your week.
 For example, he protects his writing time, by which he means the time he spends on generative writing.
 He tries to do a couple of hours every day.
 He will not schedule a meeting during that block of time.
-However, if he can't do otherwise and has to attend that meeting, then he has a policy of going to a certain location, like a coffee shop, and carrying out that generative writing for the next 90 minutes.
-He also blocks off certain days when he will not participate in any meetings so he can build momentum on his research projects.
+However, if he can't do otherwise and has to attend that meeting, he has a policy of going to a certain location, like a coffee shop or library, and doing that postponed generative writing for the next 90 minutes.
+He also blocks off certain days when he will not participate in any meetings (Ya! Great idea!) to build momentum on his research projects.
 
-Another policy you'll need to develop is what to do if you get a late start on your schedule.
+Another policy you'll need to develop is how to handle a late start on your schedule.
 For example, you can see that I have 4 a.m. listed as the starting point for my generative writing.
 Due to mismanagement of my attention the prior night, I might actually be more excited about Project D.
 I may feel that I need to do some generative writing about that project D, even though it was not scheduled.
@@ -77,6 +79,9 @@ How am I going to compensate?
 If I do not compensate, Project A will fall behind schedule.
 I should have a policy written down in an accessible document for such situations, so I don't have to reinvent the decision every time I encounter it.
 One potential solution is to tack on additional generative writing time on a light writing day.
+
+There are other policies that you may need to develop to reinforce your writing or working habits. 
+Some ideas can be found [here](https://github.com/MooersLab/thewriterslaw). 
 
 ## Future plans
 
