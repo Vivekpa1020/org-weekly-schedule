@@ -6,7 +6,8 @@
 
 # org-weekly-schedule
 
-Build weekly time-block schedule tables inside Emacs Org mode.
+Build weekly time-block schedule tables inside Emacs org-mode because of the strong support for customizable and flexible tables.
+
 
 ## Overview
 
@@ -23,6 +24,65 @@ The package operates in three layers:
 | Scaffold       | `org-weekly-schedule-insert`              | Insert the base table (Time column only)    |
 | Column stamp   | `org-weekly-schedule-append-day`          | Append one day column from a template       |
 | Week builder   | `org-weekly-schedule-build-week`          | Insert scaffold + stamp all days at once    |
+
+## Problem addressed
+
+This project was inspired by the idea that you can build a weekly template to streamline the planning process.
+While academics do have many projects they are involved in, they do not have to make as many strategic decisions in a given day as CEOs do.
+The planning techniques appropriate for the business world are not as appropriate for academia.
+I was getting tired of spending 60 to 90 minutes a day planning, when many days were similar and could be streamlined with a template approach.
+I suspect there are also many similarities to academic workflows in knowledge work in the private sector.
+
+The idea of a weekly template that distinguishes between different kinds of days comes from Cal Newport.
+I had previously developed a similar weekly schedule using the format shown below, but I had not considered how my days of the week actually differ in nature.
+I had tried to set every day of the week as a research day, with different kinds of writing best done at different times, depending on my energy levels.
+The variation in the nature of my days wreaked havoc on my straight-jacket approach.
+
+In an episode on his YouTube channel, Cal distinguishes class days from research days.
+On his research days, he goes deep into writing and avoids any meetings.
+On his class days, he delivers his lecture in the morning and then spends the afternoon doing administrative chores.
+I was able to identify about 15 other kinds of days in my yearly schedule, including days traveling to various kinds of meetings and days at those meetings.
+I also have days when I conduct experiments and collect data.
+I have several days a year where I attend dissertation defenses and commencement ceremonies that make a dent in my day.
+These activities put constraints on the time available for writing.
+
+By developing a template for those days, you can predetermine what kind of writing you'll do and when.
+If you have to apply a very similar schedule to ten days a year, it is a waste of time to regenerate that schedule ten times.
+It's faster to use a template and then tweak it to meet the specific needs of the day.
+
+This software tool can be customized to meet your specific needs regarding the template days.
+You can expand the number of template days to meet your specific needs.
+You can also change their nature.
+I see the letter codes A and B for two different major writing projects, but you can expand that number of codes to meet your needs if you're trying to make progress on multiple projects in parallel.
+If you're a programmer, you might be working on one or two major projects.
+You could treat your programming projects the way I treat my writing projects.
+
+Cal Newport also talked about developing a set of policies to follow when planning your week.
+For example, he protects his writing time, by which he means the time he spends on generative writing.
+He tries to do a couple of hours every day.
+He will not schedule a meeting during that block of time.
+However, if he can't do otherwise and has to attend that meeting, then he has a policy of going to a certain location, like a coffee shop, and carrying out that generative writing for the next 90 minutes.
+He also blocks off certain days when he will not participate in any meetings so he can build momentum on his research projects.
+
+Another policy you'll need to develop is what to do if you get a late start on your schedule.
+For example, you can see that I have 4 a.m. listed as the starting point for my generative writing.
+Due to mismanagement of my attention the prior night, I might actually be more excited about Project D.
+I may feel that I need to do some generative writing about that project D, even though it was not scheduled.
+I may spend some generative writing time working on project D when I am scheduled to work on project A.
+The upside to working on project D is that I have cleared my mind of my thoughts about that project so that I have freed up space for project A.
+I have also warmed up my generative writing engine, so I should have an easier time engaging in project A.
+However, I have also consumed some of my generative writing time, which is limited to 4.5-5.5 hours per day.
+
+How am I going to compensate?
+If I do not compensate, Project A will fall behind schedule.
+I should have a policy written down in an accessible document for such situations, so I don't have to reinvent the decision every time I encounter it.
+One potential solution is to tack on additional generative writing time on a light writing day.
+
+## Future plans
+
+Develop a Markdown version written in Python.
+
+
 
 ## Requirements
 
@@ -186,8 +246,7 @@ header, indexed 0=Sunday through 6=Saturday.
 
 ## Adding a date header
 
-You can add Day and Date rows to the top of any schedule table so that
-each column shows its calendar date:
+You can add Day and Date rows to the top of any schedule table so that each column shows its calendar date:
 
 ```
 M-x org-weekly-schedule-add-date-header
@@ -206,8 +265,8 @@ This produces:
 ```
 
 The week builder also accepts an optional start date.  When called
-interactively it prompts for one before the day-template prompts; when
-called from Lisp, pass it as the second argument:
+interactively, it prompts for one before the day-template prompts; when
+called from elisp, pass it as the second argument:
 
 ```elisp
 (org-weekly-schedule-build-week
@@ -262,6 +321,11 @@ org-weekly-schedule/
 ├── org-weekly-schedule.el        # Package source
 └── org-weekly-schedule-test.el   # ERT test suite
 ```
+
+## Status
+
+Still alpha. Works but rough around the edges.
+
 
 ## License
 
